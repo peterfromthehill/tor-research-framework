@@ -91,4 +91,6 @@ You need the following dependencies installed: apache commons and bouncycastle.
 Routers go up and down, if you're just trying the examples, then be aware the hardcoded routers might be offline.
 Other routers may provide unexpected responses, or refuse connections temporarily. Try running the example again.
 
+Building:
 
+$ mvn clean compile assembly:single
